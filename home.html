@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width-Ddevice-width, initial-scale=1.0">
+<link rel="stylesheet" href="home.css">
+<title></title>
+</head>
+ <body>
+  
+  <section class="showcase">
+    <header>
+      <h2 class="logo">exception</h2>
+      <div class="toggle"></div>
+    </header>
+    
+    <div class="text">
+      <h2>what you want </h2> 
+      <h3>is what you get here</h3>
+      <p>
+        we are here to help you with your study material and what everything you need to make study easy and simple 
+      </p>
+      <a href="index.html">Explore</a>
+    </div>
+    <ul class="social">
+      <li><a href="https://www.facebook.com/" target="_blank" ><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      <li><a href="https://twitter.com" target="_blank"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+      <li><a href="https://www.instagram.com" target="_blank"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+    </ul>
+
+    <div class="i">
+      <img src="C:\Users\wwwhe\Downloads\Brazuca - Standing1.png" >
+      </div>
+    
+
+
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="form.html">Sign up</a></li>
+      <li><a href="about.html">About us</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+  <script>
+      const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+  </script>
+ </body>
+</html>
